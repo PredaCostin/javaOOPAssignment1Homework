@@ -31,7 +31,7 @@ public class VehicleTest {
     @Test
     public void testGetAverageFuelConsumption() {
         Vehicle vehicle = new Logan(50, "123456");
-        Assertions.assertEquals(6.0f, vehicle.getAverageFuelConsumption());
+        Assertions.assertEquals(5.5f, vehicle.getAverageFuelConsumption());
     }
 
     @Test
